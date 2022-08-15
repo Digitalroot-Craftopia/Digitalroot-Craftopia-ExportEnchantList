@@ -44,7 +44,7 @@ namespace Digitalroot.Craftopia.ExportEnchantList
         EnableTrace = false;
         #endif
         Instance = this;
-        NexusId = Config.Bind("General", "NexusID", 0000, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
+        NexusId = Config.Bind("General", "NexusID", 115, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
         Log.RegisterSource(Instance);
         Log.Trace(Instance, $"{GetType().Namespace}.{GetType().Name}.{MethodBase.GetCurrentMethod()?.Name}()");
       }

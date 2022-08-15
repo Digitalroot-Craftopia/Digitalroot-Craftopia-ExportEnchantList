@@ -2,7 +2,7 @@
 Exports a list of all the enchants in game to a csv file.
 
 [b][size=4]License[/size][/b]
-[url=https://github.com/Digitalroot/Digitalroot.Valheim.BoneArrowsJVL/blob/main/LICENSE]GNU Affero General Public License v3.0[/url]
+[url=https://github.com/Digitalroot-Craftopia/Digitalroot.Craftopia.ExportEnchantList/blob/main/LICENSE]GNU Affero General Public License v3.0[/url]
 
 [b][size=4]Digitalroot.Craftopia.ExportEnchantList[/size][/b]
 Exports a list of all the enchants in game to a csv file. Includes 
