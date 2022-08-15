@@ -48,6 +48,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include=".nx\description.bbcode.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\docs\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -89,8 +93,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <Exec
-      Command="copy /Y /B /V &quot;C:\Users\nkd\Source\Repos\CraftopiaModsAll\Digitalroot-Craftopia\Digitalroot.Craftopia.ExportEnchantList\src\Digitalroot.Craftopia.ExportEnchantList\bin\Debug\net462\Digitalroot.Craftopia.*.dll&quot; &quot;C:\Program Files (x86)\Steam\steamapps\workshop\content\1307550\2830278057\BepInEx\plugins\&quot; /B" />
+    <Exec Command="copy /Y /B /V &quot;C:\Users\nkd\Source\Repos\CraftopiaModsAll\Digitalroot-Craftopia\Digitalroot.Craftopia.ExportEnchantList\src\Digitalroot.Craftopia.ExportEnchantList\bin\Debug\net462\Digitalroot.Craftopia.*.dll&quot; &quot;C:\Program Files (x86)\Steam\steamapps\workshop\content\1307550\2830278057\BepInEx\plugins\&quot; /B" />
   </Target>
 
 </Project>

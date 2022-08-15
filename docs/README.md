@@ -1,15 +1,12 @@
-Structuring your Thunderstore package
-https://github.com/ebkr/r2modmanPlus/wiki/Structuring-your-Thunderstore-package
-
-Manifest V1 (Thunderstore) + author field
-https://github.com/ebkr/r2modmanPlus/wiki/Installing-mods-locally#manifest-v1-thunderstore--author-field
-
 # Summary
+Exports a list of all the enchants in game to a csv file.
 
 ## License
 **GNU Affero General Public License v3.0**
 
 ## Mod Details
+Exports a list of all the enchants in game to a csv file. Includes 
+information like Rarity, ATK, MATK, DEF, ... 
 
 ### Dependencies
 - <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2830278057"  target="_blank">Craftopia Mod Loader (BepInEx)</a>
