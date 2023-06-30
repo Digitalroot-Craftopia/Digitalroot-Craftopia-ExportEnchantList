@@ -188,7 +188,7 @@ namespace Digitalroot.Craftopia.ExportEnchantList
           , "EquipmentPassiveSkillId"
           , "EquipmentPassiveSkillLevel"
           , "PriceModify"
-          , "DurabilityModify"
+          , "modify_Durability"
         };
 
         var sb = new StringBuilder();
@@ -279,7 +279,7 @@ namespace Digitalroot.Craftopia.ExportEnchantList
             .Append(soEnchantment.EquipmentPassiveSkillId).Append(",")
             .Append(soEnchantment.EquipmentPassiveSkillLevel).Append(",")
             .Append(soEnchantment.PriceModify).Append(",")
-            .Append(soEnchantment.DurabilityModify).Append(",")
+            .Append(soEnchantment.modify_Durability).Append(",")
             ;
 
           // Log.Trace(Instance, $"[{GetType().Name}.{MethodBase.GetCurrentMethod()?.Name}]{sb.ToString().TrimEnd(',')}");
